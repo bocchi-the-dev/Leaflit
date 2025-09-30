@@ -94,8 +94,8 @@ function buildAndSignThePackage() {
                 --ksPass "$MY_KEYSTORE_PASSWORD" \
                 --ksKeyPass "$MY_KEYSTORE_ALIAS_KEY_PASSWORD")
         else
+            sign_output=$(java -jar ./src/bin/signer.jar --apk "$apk_file")
         fi
-        sign_output=$(java -jar ./src/bin/signer.jar --apk "$apk_file")
         signed_apk=$(echo "$sign_output" \
             | grep 'file:.*-aligned-.*\.apk' \
             | sed -n '2p' \
