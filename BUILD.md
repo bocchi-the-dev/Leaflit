@@ -1,4 +1,4 @@
-![meow](https://github.com/ayumi-aiko/banners/blob/main/explore00.png?raw=true)
+![meow](https://github.com/bocchi-the-dev/banners/blob/main/explore00.png?raw=true)
 
 ## Dependencies:
 - aria2c

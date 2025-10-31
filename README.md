@@ -1,4 +1,4 @@
-![leaflit](https://github.com/ayumi-aiko/banners/blob/main/leaflit.banner.png?raw=true)
+![leaflit](https://github.com/bocchi-the-dev/banners/blob/main/leaflit.banner.png?raw=true)
 
 # Leaflit
 
